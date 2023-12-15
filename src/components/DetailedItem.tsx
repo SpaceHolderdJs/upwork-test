@@ -20,7 +20,7 @@ export const DetailedItem = () => {
   return (
     <FlexColumn width="100%" alignItems="center">
       <FlexColumn width="70%" alignItems="center">
-        <Img width="100%" objectFit="cover" src={images[0]} />
+        <Img width="100%" maxHeight="300px" objectFit="cover" src={images[0]} />
         <FlexRow
           width="100%"
           alignItems="center"
