@@ -12,8 +12,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-    <AppContext.Provider value={{ data: { items: [] } }}></AppContext.Provider>
+    <AppContext.Provider value={{ data: { items: [] } }}>
+      <RouterProvider router={router} />
+    </AppContext.Provider>
   </React.StrictMode>
 );
 
